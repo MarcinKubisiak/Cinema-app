@@ -1,0 +1,337 @@
+body{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	font-family:Calibri;
+	
+}
+a{
+text-decoration:none;
+color:#8a8a8a;
+}
+#nawigator{
+	line-height:75px;
+	height:75px;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	overflow-x: auto;
+	position:fixed;
+	width:100%;
+	background-color:white;
+	z-index:2;
+}
+
+#baner{
+	padding-top:75px;
+	height:600px;
+	background-position: center; 
+	background-image: url("zdjecia/kino2.jpg"); 
+	background-size: 1920px 600px;
+}
+
+#Repertuar{
+	width:150px;
+	text-align:center;
+	position:relative;
+	left:300px;
+	font-size:25px;
+	float:left;
+	
+}
+
+#Repertuar:hover{
+	background-color:red;
+	color:white;
+}
+
+
+
+
+
+#Cennik{
+	left:300px;
+	width:150px;
+	text-align:center;
+	position:relative;
+	font-size:25px;
+	float:left;
+	
+}
+
+#Cennik:hover{
+	background-color:red;
+	color:white;
+}
+
+#baner{
+	text-align:center;
+	font-size:70px;
+}
+
+#przycisk{
+	width:350px;
+	height:75px;
+	position:relative;
+	top:180px;
+	line-height:75px;
+	border-radius:5px;
+	border:#8a8a8a 3px solid;
+	color:#8a8a8a;
+	margin:auto;
+}
+
+#przycisk:hover{
+	background-color:red;
+	border:none;
+	color:white;
+}
+#Nowości_przykłady{
+	position:relative;
+	margin:auto;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	margin-bottom:300px;
+}
+
+#okno{
+	width:18%;
+	height:350px;
+	background-color:white;
+	position:relative;
+	float:left;
+	left:100px;
+	margin-left:100px;
+	bottom:150px;
+	border-radius:5px;
+}
+
+#zdj_nowosc{
+	position:absolute;
+	margin:auto;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width:80%;
+	height:300px;
+	
+}
+
+#Przycisk_film{
+	visibility:hidden ;
+	position:absolute;
+	margin:auto;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width:50%;
+	height:15%;
+	border-radius:15px;
+	background-color:red;
+	border:none;
+	color:white;
+	font-weight:bold;
+	font-size:100%;
+	
+}
+#okno:hover #Przycisk_film{
+	visibility:visible;
+	
+}
+
+#Grane_Teraz{
+	clear: both;
+	
+	text-align:center;
+	color:white;
+	font-size:45px;
+	height:75px;
+	margin-bottom:50px;
+	
+	border-bottom:black 10px solid;
+	border-top:black 10px solid;
+	font-family:Calibri;
+	
+}
+
+
+#szukaj{
+	position:absolute;
+	right:10%;	
+}
+
+#text_szukaj{
+	height:75px;
+	
+	font-weight:bold;
+	font-family:Calibri;
+	position:relative;
+	
+	border:none;
+	width:300px;
+	font-size:30px;
+	
+	
+}
+#text_szukaj:hover{
+	height:75px;
+	font-weight:bold;
+	font-family:Calibri;
+	position:relative;
+	border:none;
+	width:300px;
+	font-size:30px;
+	
+	
+}
+
+#przycisk_szukaj{
+
+height:75px;
+width:170px;
+font-weight:bold;
+background-color:white;
+color:#8a8a8a;
+border:none;
+font-size:30px;
+font-family:Calibri;
+
+position:relative;
+
+
+}
+
+
+#przycisk_szukaj:hover{
+
+height:75px;
+background-color:red;
+padding-bottom:-7px;
+
+position:relative;
+color:white;
+
+}
+
+
+
+
+#okno_głowne{
+	width:100%;
+	height:350px;
+	margin-bottom:5px;
+}
+
+
+#zdj_głowne{
+	position:absolute;
+	width:15%;
+	height:250px;
+	margin-top:50px;
+	left:50px;
+	
+}
+
+#linia_pomiędzy{
+	width:95%;
+	height:3px;
+	border-bottom:#8a8a8a 2px dotted ;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#prawy_planel{
+	
+	width:75%;
+	height:200px;
+	float:right;
+	padding-top:125px;
+}
+
+
+#Przycisk_główny{
+	visibility:hidden;
+	position:absolute;
+	margin-top:170px;
+	margin-left:7%;
+    
+	height:5%;
+	border-radius:15px;
+	background-color:red;
+	border:none;
+	color:white;
+	font-weight:bold;
+	font-size:100%;
+	
+}
+
+#okno_głowne:hover #Przycisk_główny{
+	visibility:visible;
+	
+}
+
+#błąd{
+text-align:center;	
+font-size:50px;
+margin-bottom:100px;
+}
+
+#stopka_strony_gura{
+	height:150px;
+	background-image: url("zdjecia/stopka.png"); 
+	background-size: 1920px 150px;
+	font-size:40px;
+	color:white;
+	text-align:right;
+	padding-right:200px;
+	line-height:100px;
+	font-family:Calibri;
+}
+
+#stopka_strona_dol{
+	font-family:Calibri;
+	height:425px;
+	background-color:#565656;
+	
+}
+
+#tabela{
+	
+	position:absolute;
+	left:150px;
+	font-size:30px;
+	border-spacing:20px;
+}
+
+#text_szukaj_wybierz{
+	height:75px;
+	
+	font-weight:bold;
+	font-family:Calibri;
+	position:relative;
+	
+	border:none;
+	width:300px;
+	font-size:30px;
+	
+	color:gray;
+}
+
+#text_szukaj_wybierz:hover{
+	
+	color:black;
+	
+}
+
+
+}
+
+
+
+
+
+

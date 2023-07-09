@@ -1,0 +1,168 @@
+body{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	font-family:Calibri;
+	
+}
+
+
+#cennik1{
+background-color:white;
+
+width:100%;
+height:100%;
+ float:left;
+
+
+
+margin-top:5%;
+}
+#tab1 {
+   
+   width:60%;
+float:left;
+left:200px;
+position:relative;
+
+}
+#tab2 {
+   
+   width:40%;
+float:right;
+
+}
+td{
+font-size:30px;
+
+text-align:center;
+padding:10px;
+
+}
+
+#cen{
+font-size:70px;
+
+}
+#nazwa{
+text-align:right;
+}
+
+#nawigator{
+	line-height:75px;
+	height:75px;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	overflow-x: auto;
+	position:fixed;
+	width:100%;
+	background-color:white;
+	z-index:2;
+}
+
+
+
+#Repertuar{
+	width:150px;
+	text-align:center;
+	position:relative;
+	left:300px;
+	font-size:25px;
+	float:left;
+	
+}
+
+#Repertuar:hover{
+	background-color:red;
+	color:white;
+}
+
+
+
+
+
+#Cennik{
+	left:300px;
+	width:150px;
+	text-align:center;
+	position:relative;
+	font-size:25px;
+	float:left;
+	
+}
+
+#Cennik:hover{
+	background-color:red;
+	color:white;
+}
+
+body{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	font-family:Calibri;
+	
+}
+
+a{
+text-decoration:none;
+color:#8a8a8a;
+}
+
+#baner{
+	height:100px;
+	background-image: url("zdjecia/stopka.png"); 
+	background-size: 1920px 100px;
+	font-size:40px;
+	color:white;
+	text-align:right;
+	padding-right:200px;
+	line-height:50px;
+	font-family:Calibri;
+	background-repeat:no-repeat;
+	padding-right:50px;
+	
+	
+	
+}
+
+#czesc_gurna{
+	position:relative;
+	height:500px;
+}
+
+
+#stopka_strony_gura{
+	height:150px;
+	background-image: url("zdjecia/stopka.png"); 
+	background-size: 1920px 150px;
+	font-size:40px;
+	color:white;
+	text-align:right;
+	padding-right:200px;
+	line-height:100px;
+	font-family:Calibri;
+}
+
+#stopka_strona_dol{
+	font-family:Calibri;
+	height:425px;
+	background-color:#565656;
+	margin-top:300px;
+}
+
+#tabela{
+	
+	position:absolute;
+	left:150px;
+	font-size:30px;
+	border-spacing:20px;
+}
+#tabela td{
+
+
+text-align:left;
+
+
+}
